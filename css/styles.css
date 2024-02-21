@@ -106,7 +106,7 @@ main{
         color: var(--secondary-color);
         text-shadow: none;
     }
-    .title{
+    #about-me .title{
         grid-column: 5 / 8;
         height: fit-content;
         padding: 24px;
@@ -116,6 +116,17 @@ main{
         
         text-decoration: none;
     }
+
+.title{
+    grid-column: 2 / 8;
+        height: fit-content;
+        padding: 24px;
+
+        color: var(--text-color);
+        background-color: var(--secondary-color);
+        
+        text-decoration: none;
+}
 
 /*PROJECT CARDS START
 with main defining project-card class for grid, bg img, shadows etc.
