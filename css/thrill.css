@@ -67,6 +67,25 @@
     grid-column: 2 / 6;
     grid-row: 5;
 }
+    #start-screen{
+        grid-column: 2 / 8;
+        grid-row: 6;
+        margin-top: 5%;
+    }
+    #start-screen img{
+        width: 100%;
+    }
+    #navbar{
+        grid-column: 2 / 8;
+        grid-row: 7;
+        margin-top: 5%;
+    }
+    #navbar img{
+        grid-column: 2 / 4;
+        grid-row: 9;
+        width: 50%;
+    }
+
 #project-main-area #maps-click-event{grid-column: 6 / 8;}
 
 #project-learnings{grid-column: 3 / 11;}
